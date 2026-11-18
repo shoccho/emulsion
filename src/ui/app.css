@@ -694,3 +694,15 @@ code.path {
 .notice-preview-only {
   margin-bottom: 10px;
 }
+
+.gh-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+.gh-link:hover {
+  color: var(--text);
+}
