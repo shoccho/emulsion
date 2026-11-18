@@ -261,6 +261,13 @@ export function EditorPage({ lookId }: { lookId?: string }) {
         Make your own picture style: start from a film-inspired preset, adjust colours and tones, preview, then save it as a look or write it to a User Def.
         slot.
       </p>
+      {!lib.keys && (
+        <Notice tone="info">
+          <strong>Preview only.</strong> Without Canon's keys, the sliders change the preview but the result can't be saved or written to the camera.
+          To put a look on your camera now, pick one of the {LOOK_PRESETS.length} ready-made looks in a <a href="#/recipes">recipe</a>. Those need
+          no keys. To save your own, see "Optional" below.
+        </Notice>
+      )}
       <KeysCard />
       {!base && <Notice tone="warn">No base style data available. It comes with the app's built-in looks, or capture one from a camera slot.</Notice>}
 

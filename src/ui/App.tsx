@@ -7,10 +7,11 @@ import { RecipesPage } from './pages/RecipesPage';
 import { RecipePage } from './pages/RecipePage';
 import { HelpPage } from './pages/HelpPage';
 import { EditorPage } from './pages/EditorPage';
+import { HomePage } from './pages/HomePage';
 import { APP_NAME, CONTRIBUTING_URL, REPO_URL } from './project';
 
 const NAV = [
-  { href: '#/', key: '', label: 'Camera' },
+  { href: '#/camera', key: 'camera', label: 'Camera' },
   { href: '#/recipes', key: 'recipes', label: 'Recipes' },
   { href: '#/editor', key: 'editor', label: 'Style editor' },
   { href: '#/help', key: 'help', label: 'Help' },
@@ -29,7 +30,8 @@ function Shell() {
   else if (top === 'recipe') page = <RecipePage id={route[1] ?? 'new'} />;
   else if (top === 'help') page = <HelpPage />;
   else if (top === 'editor' || top === 'looks') page = <EditorPage key={route[1] ?? 'new'} lookId={top === 'editor' ? route[1] : undefined} />;
-  else page = <CameraPage />;
+  else if (top === 'camera') page = <CameraPage />;
+  else page = <HomePage />;
 
   return (
     <>

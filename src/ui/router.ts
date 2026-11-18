@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-/** Hash routing only, so the static build works from any sub-path. Routes: #/, #/recipes, #/recipe/<id>, #/editor[/<look id>], #/help (#/looks shows the editor) */
+/** Hash routing only, so the static build works from any sub-path. Routes: #/ (home), #/camera, #/recipes, #/recipe/<id>, #/editor[/<look id>], #/help (#/looks shows the editor) */
 export function useRoute(): string[] {
   const read = () =>
     window.location.hash

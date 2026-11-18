@@ -1,25 +1,44 @@
 # Emulsion
 
-**Film-style looks and recipes for the Canon EOS R100, straight from your browser.**
+**Film looks for your Canon, without the software.**
 
-Plug the camera into your computer with a USB cable, open the site in Chrome, pick a look, and it lands in one of the camera's
-three *User Defined* picture-style slots. No Canon software needed.
+Emulsion puts film-inspired colour into a Canon EOS R100's picture styles, so your JPEGs come out of the camera already looking the way
+you want. Pick a look in your browser, plug in a USB cable, click once. Free, open source, with nothing to install.
 
 👉 **[shoccho.github.io/emulsion](https://shoccho.github.io/emulsion/)**
 
-## What it does
+## Why
 
-- **35 ready-made looks** you can write to the camera in one click. They include film-inspired colour (Chrome-style, Portrait 400,
-  Golden 200, Tungsten 800, Slide 64…), black and white (Fine mono, Mono red filter, Sepia…), creative grades (Teal and orange,
-  Faded matte, Cross process…), and *editable* versions of Canon's own styles.
-- **Recipes**, including five Classic Chrome recipes by [Fuji X Weekly](https://fujixweekly.com/). Each one is mapped to what the
-  R100 can do: look, contrast, saturation, colour tone, sharpness, and the camera-wide white balance, WB shift, noise reduction and
-  highlight tone priority. The camera-wide settings are applied over USB too.
-- **A style editor** to make your own look with hue bands, tone and split toning, with a live preview on a chart or your own photo.
-- **Backups first.** Every write reads the slot and saves a backup in your browser before changing anything, then reads it back and
-  reports "verified" only if every byte matches.
+Fujifilm shooters swap **film simulation recipes**: a handful of settings that make the camera's own JPEGs look like Kodak Portra,
+Classic Chrome or Kodachrome, with no editing afterwards. Sites like [Fuji X Weekly](https://fujixweekly.com/) publish hundreds of
+them.
 
-Everything runs in the browser. Nothing is uploaded.
+Canon cameras can do something similar. Each one has three **User Defined picture style** slots that hold a custom colour look. But
+filling them normally means installing Canon's EOS Utility on a computer, finding a `.pf2` style file, and registering it by hand.
+Making your own needs yet another Canon app. In practice almost nobody does it, and those slots sit empty.
+
+Emulsion makes it a one-click job from a web page, and gives Canon shooters the recipe culture Fujifilm shooters have.
+
+## What you get
+
+- **28 ready-made looks**, plus editable versions of Canon's own styles, written to the camera in one click:
+  - film-inspired colour: Chrome-style, Portrait 400, Golden 200, Tungsten 800, Slide 64…
+  - black and white: Fine mono, Mono red filter, Sepia…
+  - creative grades: Teal and orange, Faded matte, Cross process…
+- **Recipes**, including five Classic Chrome recipes by Fuji X Weekly. Each one is translated to what the R100 can do:
+  - in the slot: look, contrast, saturation, colour tone and sharpness;
+  - camera-wide: white balance, WB shift, noise reduction and highlight tone priority, also applied over USB.
+- **A style editor** for building your own look from hue bands, tone and split toning, previewed on a chart or your own photo.
+  Saving your own looks needs Canon's keys from EOS Utility (optional; see below).
+- **Safe writes.** Every write backs up the slot in your browser first, then reads it back and reports "verified" only if every byte
+  matches. Nothing is uploaded; there's no account or tracking.
+
+## How to use it
+
+1. Open the site in **Chrome or Edge** on a computer.
+2. Pick a recipe (or a look) and choose a slot: User Def. 1, 2 or 3.
+3. Connect the camera with a USB cable, switch it on, and click **Write**. Optionally apply the recipe's white balance too.
+4. Unplug, choose that User Def. style on the camera, and shoot. The look is baked into every JPEG; RAW files keep it as a setting.
 
 ## Cameras
 
