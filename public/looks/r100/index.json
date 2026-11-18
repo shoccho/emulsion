@@ -1,0 +1,212 @@
+[
+  {
+    "id": "base:standard",
+    "name": "Canon Standard (editable)",
+    "file": "base-standard.bin",
+    "description": "A colour table that renders like Canon Standard, for the style editor. Matches the plain Canon style closely."
+  },
+  {
+    "id": "base:neutral",
+    "name": "Canon Neutral (editable)",
+    "file": "base-neutral.bin",
+    "description": "A colour table that renders like Canon Neutral, for the style editor. Matches the plain Canon style closely."
+  },
+  {
+    "id": "base:faithful",
+    "name": "Canon Faithful (editable)",
+    "file": "base-faithful.bin",
+    "description": "A colour table that renders like Canon Faithful, for the style editor. Matches the plain Canon style closely."
+  },
+  {
+    "id": "base:finedetail",
+    "name": "Canon Fine Detail (editable)",
+    "file": "base-finedetail.bin",
+    "description": "A colour table that renders like Canon Fine Detail, for the style editor. Matches the plain Canon style closely."
+  },
+  {
+    "id": "base:portrait",
+    "name": "Canon Portrait (editable)",
+    "file": "base-portrait.bin",
+    "description": "A colour table that renders like Canon Portrait, for the style editor. Approximates the plain Canon style (measured ΔE 4.8)."
+  },
+  {
+    "id": "base:landscape",
+    "name": "Canon Landscape (editable)",
+    "file": "base-landscape.bin",
+    "description": "A colour table that renders like Canon Landscape, for the style editor. Approximates the plain Canon style (measured ΔE 4.2)."
+  },
+  {
+    "id": "base:monochrome",
+    "name": "Canon Monochrome (editable)",
+    "file": "base-monochrome.bin",
+    "description": "A colour table that renders like Canon Monochrome, for the style editor. Matches the plain Canon style closely."
+  },
+  {
+    "id": "gen:classic-chrome",
+    "name": "Chrome-style",
+    "file": "gen-classic-chrome.bin",
+    "description": "Inspired by Classic Chrome: muted greens and yellows, cyan-leaning blues, deep reds, firm contrast, soft highlights. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:classic-negative",
+    "name": "Negative-style",
+    "file": "gen-classic-negative.bin",
+    "description": "Inspired by Classic Negative: hard contrast, teal shadows, warm highlights, greens toward teal. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:velvia",
+    "name": "Vivid slide",
+    "file": "gen-velvia.bin",
+    "description": "Inspired by Velvia: rich saturation and punchy contrast for landscapes. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:eterna",
+    "name": "Cinema soft",
+    "file": "gen-eterna.bin",
+    "description": "Inspired by Eterna: low saturation, flat contrast, lifted shadows, cool shadow tint. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:pro-neg",
+    "name": "Soft portrait",
+    "file": "gen-pro-neg.bin",
+    "description": "Inspired by Pro Neg. Std: gentle contrast, natural skin, slightly muted colour. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:provia",
+    "name": "Standard slide",
+    "file": "gen-provia.bin",
+    "description": "Inspired by Provia: clean, moderately saturated colour with gentle contrast. A good everyday look. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:astia",
+    "name": "Soft slide",
+    "file": "gen-astia.bin",
+    "description": "Inspired by Astia: soft contrast, bright skin, saturated but gentle blues and greens. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:pro-neg-hi",
+    "name": "Portrait punch",
+    "file": "gen-pro-neg-hi.bin",
+    "description": "Inspired by Pro Neg. Hi: natural skin with more contrast and a little more colour than Soft portrait. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:bleach-bypass",
+    "name": "Bleach bypass",
+    "file": "gen-bleach-bypass.bin",
+    "description": "Inspired by Eterna Bleach Bypass: very low saturation, hard contrast, silvery highlights. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:nostalgic-neg",
+    "name": "Amber negative",
+    "file": "gen-nostalgic-neg.bin",
+    "description": "Inspired by Nostalgic Neg.: amber highlights, rich reds, soft shadows, 1970s print feel. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:reala-ace",
+    "name": "True negative",
+    "file": "gen-reala-ace.bin",
+    "description": "Inspired by Reala Ace: faithful colour with negative-film contrast and slightly cool greens. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:portrait-400",
+    "name": "Portrait 400",
+    "file": "gen-portrait-400.bin",
+    "description": "Inspired by Portra 400: warm, pastel colour, low contrast, glowing skin, muted greens and blues. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:gold-200",
+    "name": "Golden 200",
+    "file": "gen-gold-200.bin",
+    "description": "Inspired by Gold 200: warm and sunny, saturated yellows and reds, golden highlights. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:ektar-100",
+    "name": "Saturated 100",
+    "file": "gen-ektar-100.bin",
+    "description": "Inspired by Ektar 100: very saturated, punchy reds and deep blues, crisp contrast. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:tungsten-800",
+    "name": "Tungsten 800",
+    "file": "gen-tungsten-800.bin",
+    "description": "Inspired by CineStill 800T: cool cinematic night look, teal shadows, cyan skies, warm practical lights. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:superia-400",
+    "name": "Consumer 400",
+    "file": "gen-superia-400.bin",
+    "description": "Inspired by Superia 400: green-tinged shadows, vivid greens and reds, everyday snapshot feel. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:slide-64",
+    "name": "Slide 64",
+    "file": "gen-slide-64.bin",
+    "description": "Inspired by Kodachrome 64: deep reds, warm yellows, dense blues, strong contrast and dark shadows. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:acros",
+    "name": "Fine mono",
+    "file": "gen-acros.bin",
+    "description": "Inspired by Acros: smooth black and white with deep blacks and detailed highlights. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:mono-red-filter",
+    "name": "Mono red filter",
+    "file": "gen-mono-red-filter.bin",
+    "description": "Black and white as if shot through a red filter: dark dramatic skies, bright skin and brick. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:mono-high-contrast",
+    "name": "Gritty mono",
+    "file": "gen-mono-high-contrast.bin",
+    "description": "Inspired by Tri-X pushed: hard, punchy black and white for street photography. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:sepia",
+    "name": "Sepia",
+    "file": "gen-sepia.bin",
+    "description": "Warm brown-toned black and white, like an old print. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:teal-orange",
+    "name": "Teal and orange",
+    "file": "gen-teal-orange.bin",
+    "description": "Blockbuster grade: skin and warm tones pushed orange, everything cool pushed teal. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:faded-matte",
+    "name": "Faded matte",
+    "file": "gen-faded-matte.bin",
+    "description": "Lifted, milky shadows, soft contrast and muted colour; the classic matte social look. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:moody-forest",
+    "name": "Moody forest",
+    "file": "gen-moody-forest.bin",
+    "description": "Dark, desaturated greens toward olive, cool shadows, warm skin. For woods and overcast days. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:warm-vintage",
+    "name": "Warm vintage",
+    "file": "gen-warm-vintage.bin",
+    "description": "Faded warm print: yellowed highlights, brown shadows, softened colour. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:cool-nordic",
+    "name": "Cool nordic",
+    "file": "gen-cool-nordic.bin",
+    "description": "Clean, cool and airy: blue-grey shadows, bright highlights, restrained colour. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:cross-process",
+    "name": "Cross process",
+    "file": "gen-cross-process.bin",
+    "description": "Slide film developed as negative: yellow-green highlights, cyan shadows, hard contrast, wild colour. Built on Canon Standard (editable)."
+  },
+  {
+    "id": "gen:pastel",
+    "name": "Pastel",
+    "file": "gen-pastel.bin",
+    "description": "Light, airy, soft colours with lifted shadows and pink-leaning highlights. Built on Canon Standard (editable)."
+  }
+]

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Colour chart</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #000;
+        cursor: none;
+      }
+      #g {
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        gap: 6px;
+        padding: 6px;
+        height: 100vh;
+        box-sizing: border-box;
+      }
+      #g div {
+        border-radius: 2px;
+      }
+      #hint {
+        position: fixed;
+        bottom: 4px;
+        right: 8px;
+        color: #444;
+        font: 11px system-ui;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="g"></div>
+    <div id="hint">Press F for full screen</div>
+    <script>
+      // 12 hues + 1 grey column; rows: pastel, light, vivid, mid, deep, muted; bottom row: grey ramp.
+      const rows = [
+        [85, 45],
+        [70, 75],
+        [55, 100],
+        [45, 70],
+        [30, 80],
+        [50, 30],
+      ];
+      const g = document.getElementById('g');
+      for (const [l, s] of rows) {
+        for (let h = 0; h < 360; h += 30) {
+          const d = document.createElement('div');
+          d.style.background = `hsl(${h} ${s}% ${l}%)`;
+          g.appendChild(d);
+        }
+        const grey = document.createElement('div');
+        grey.style.background = `hsl(0 0% ${l}%)`;
+        g.appendChild(grey);
+      }
+      for (let i = 0; i < 13; i++) {
+        const d = document.createElement('div');
+        const v = Math.round(5 + (i / 12) * 90);
+        d.style.background = `hsl(0 0% ${v}%)`;
+        g.appendChild(d);
+      }
+      addEventListener('keydown', (e) => {
+        if (e.key === 'f') document.documentElement.requestFullscreen?.();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+coverage/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+npm-debug.log*
+
+# Secrets and local settings
+.env
+.env.*
+.claude/
+
+# Real camera dumps, photos, backups, and Canon's key tables. Never commit.
+fixtures-private/
+
+# Canon's own Picture Style data (Autumn Hues etc.). Local development only; never published.
+public/carriers/
+
+# Internal planning notes
+PLAN.md

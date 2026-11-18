@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emulsion camera probe</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+      body { max-width: 860px; margin: 0 auto; padding: 16px; }
+      button { font-size: 1rem; padding: 8px 14px; margin: 4px 8px 4px 0; }
+      pre { background: #8881; padding: 12px; overflow-x: auto; font-size: 12px; white-space: pre-wrap; }
+      .warn { color: #c60; }
+    </style>
+  </head>
+  <body>
+    <h1>Emulsion camera probe (read-only)</h1>
+    <p>Reads camera info and picture-style slots from any Canon EOS camera. Sends no settings and no style data to the camera.</p>
+    <p>The saved report hides the serial number and any owner, artist or copyright text, so it is safe to attach to a GitHub issue
+      (see CONTRIBUTING.md).</p>
+    <p id="support"></p>
+    <button id="info">1. Device info only</button>
+    <button id="read">2. Read-only session</button>
+    <button id="save" disabled>Save results</button>
+    <pre id="log"></pre>
+    <script type="module" src="/src/spike/main.ts"></script>
+  </body>
+</html>

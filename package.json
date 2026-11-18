@@ -1,0 +1,47 @@
+{
+  "name": "emulsion",
+  "version": "0.0.1",
+  "description": "Film-style looks and recipes for the Canon EOS R100, loaded over USB from the browser.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoccho/emulsion.git"
+  },
+  "homepage": "https://shoccho.github.io/emulsion/",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "probe": "tsx tools/probe.ts",
+    "diff": "tsx tools/diff.ts",
+    "noop-write": "tsx tools/noop-write.ts",
+    "copy-slot": "tsx tools/copy-slot.ts",
+    "restore": "tsx tools/restore.ts",
+    "settings-test": "tsx tools/settings-test.ts",
+    "exp": "tsx tools/experiment.ts",
+    "compare": "tsx tools/compare.ts",
+    "capture-bases": "tsx tools/capture-bases.ts",
+    "build:looks": "tsx tools/build-looks.ts",
+    "postbuild": "tsx tools/check-no-keys.ts dist public/looks"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/w3c-web-usb": "^1.0.14",
+    "@vitejs/plugin-react": "^6.3.0",
+    "fake-indexeddb": "^6.2.8",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "usb": "^3.3.0"
+  }
+}
