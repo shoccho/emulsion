@@ -1,9 +1,10 @@
 # Emulsion
 
-**Film looks for your Canon, without the software.**
+**Film looks for your Canon.**
 
 Emulsion puts film-inspired colour into a Canon EOS R100's picture styles, so your JPEGs come out of the camera already looking the way
-you want. Pick a look in your browser, plug in a USB cable, click once. Free, open source, with nothing to install.
+you want. Browse looks and recipes, connect the camera with a USB cable, and write one to a User Defined slot. Free and open source,
+right in your browser.
 
 👉 **[shoccho.github.io/emulsion](https://shoccho.github.io/emulsion/)**
 
@@ -14,14 +15,13 @@ Classic Chrome or Kodachrome, with no editing afterwards. Sites like [Fuji X Wee
 them.
 
 Canon cameras can do something similar. Each one has three **User Defined picture style** slots that hold a custom colour look. But
-filling them normally means installing Canon's EOS Utility on a computer, finding a `.pf2` style file, and registering it by hand.
-Making your own needs yet another Canon app. In practice almost nobody does it, and those slots sit empty.
+there's no shared library of looks for them, and few people know the slots are there, so they mostly sit empty.
 
-Emulsion makes it a one-click job from a web page, and gives Canon shooters the recipe culture Fujifilm shooters have.
+Emulsion is that library. It gives Canon shooters the recipe culture Fujifilm shooters have.
 
 ## What you get
 
-- **28 ready-made looks**, plus editable versions of Canon's own styles, written to the camera in one click:
+- **28 ready-made looks**, plus editable versions of Canon's own styles:
   - film-inspired colour: Chrome-style, Portrait 400, Golden 200, Tungsten 800, Slide 64…
   - black and white: Fine mono, Mono red filter, Sepia…
   - creative grades: Teal and orange, Faded matte, Cross process…
@@ -65,7 +65,7 @@ The site talks to the camera with PTP (the standard camera USB protocol) through
 write the User Defined slots and camera settings.
 
 Canon scrambles picture-style data. The ready-made looks are shipped as **finished style data** that the camera accepts as-is, so
-using them needs no keys and no Canon software. **This repository contains no Canon software, no Canon keys and no Canon Picture
+using them needs no keys. **This repository contains no Canon software, no Canon keys and no Canon Picture
 Style files.** The build fails if any key material or Canon style file ends up in the site (`tools/check-no-keys.ts`).
 
 Saving or writing a look *you* made in the editor does need Canon's keys. The site can read them once from your own copy of EOS

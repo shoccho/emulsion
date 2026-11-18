@@ -45,10 +45,10 @@ export function HomePage() {
   return (
     <>
       <section className="hero">
-        <h1>Film looks for your Canon, without the software</h1>
+        <h1>Film looks for your Canon</h1>
         <p className="lead">
           Emulsion puts film-inspired colour into your Canon EOS R100's picture styles, so your JPEGs come out of the camera already looking the way
-          you want. Pick a look, plug in a USB cable, click once. It's free and runs in your browser, with nothing to install.
+          you want. Browse looks and recipes, connect the camera with a USB cable, and write one to a User Defined slot. Free and open source, right in your browser.
         </p>
         <div className="row wrap-row">
           <a className="button primary" href="#/recipes">
@@ -71,11 +71,10 @@ export function HomePage() {
         </p>
         <p>
           Canon cameras can do something similar. Each one has three <strong>User Defined picture style</strong> slots that can hold a custom
-          colour look. But filling them normally means installing Canon's EOS Utility, finding a style file, and registering it by hand. Making your
-          own takes yet another Canon app. Most people never bother, so the slots sit empty.
+          colour look. But there's no shared library of looks for them, and few people know the slots are there, so they mostly sit empty.
         </p>
         <p>
-          Emulsion makes it a one-click job: <strong>{LOOK_PRESETS.length} ready-made looks</strong> plus editable versions of Canon's own styles, recipes that also set the camera's white
+          Emulsion is that library: <strong>{LOOK_PRESETS.length} ready-made looks</strong> plus editable versions of Canon's own styles, recipes that also set the camera's white
           balance, and a style editor. All of it works from a web page, with your camera on a cable.
         </p>
       </section>
